@@ -13,6 +13,7 @@
 		041CB5562628A02B00A6613A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041CB5542628A02B00A6613A /* Main.storyboard */; };
 		041CB5582628A03000A6613A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041CB5572628A03000A6613A /* Assets.xcassets */; };
 		041CB55B2628A03000A6613A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041CB5592628A03000A6613A /* LaunchScreen.storyboard */; };
+		041CB56C2628A14900A6613A /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CB56B2628A14900A6613A /* ConversationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		041CB5572628A03000A6613A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041CB55A2628A03000A6613A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041CB55C2628A03000A6613A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041CB56B2628A14900A6613A /* ConversationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,12 @@
 		041CB54D2628A02B00A6613A /* FireChat */ = {
 			isa = PBXGroup;
 			children = (
+				041CB56A2628A0F900A6613A /* Model */,
+				041CB5692628A0F700A6613A /* View */,
+				041CB5682628A0F500A6613A /* ViewModel */,
+				041CB5662628A0E700A6613A /* Controller */,
+				041CB5652628A09C00A6613A /* API */,
+				041CB5632628A08900A6613A /* Utils */,
 				041CB54E2628A02B00A6613A /* AppDelegate.swift */,
 				041CB5502628A02B00A6613A /* SceneDelegate.swift */,
 				041CB5522628A02B00A6613A /* ViewController.swift */,
@@ -65,6 +73,49 @@
 				041CB55C2628A03000A6613A /* Info.plist */,
 			);
 			path = FireChat;
+			sourceTree = "<group>";
+		};
+		041CB5632628A08900A6613A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		041CB5652628A09C00A6613A /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		041CB5662628A0E700A6613A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041CB56B2628A14900A6613A /* ConversationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		041CB5682628A0F500A6613A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		041CB5692628A0F700A6613A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		041CB56A2628A0F900A6613A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +190,7 @@
 			files = (
 				041CB5532628A02B00A6613A /* ViewController.swift in Sources */,
 				041CB54F2628A02B00A6613A /* AppDelegate.swift in Sources */,
+				041CB56C2628A14900A6613A /* ConversationController.swift in Sources */,
 				041CB5512628A02B00A6613A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RH6LF4GV53;
 				INFOPLIST_FILE = FireChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RH6LF4GV53;
 				INFOPLIST_FILE = FireChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
