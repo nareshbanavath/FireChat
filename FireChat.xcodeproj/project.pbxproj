@@ -18,7 +18,9 @@
 		04381C8B268B369300ED9DAE /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04381C8A268B369300ED9DAE /* File2.swift */; };
 		04381C8E268B369A00ED9DAE /* File3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04381C8D268B369A00ED9DAE /* File3.swift */; };
 		04381C91268B36A200ED9DAE /* File4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04381C90268B36A200ED9DAE /* File4.swift */; };
-		04381C94268B36A900ED9DAE /* File5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04381C93268B36A900ED9DAE /* File5.swift */; };
+		04381C94268B36A900ED9DAE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04381C93268B36A900ED9DAE /* Extensions.swift */; };
+		651482D3268B3AC6005F0891 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651482D2268B3AC6005F0891 /* LoginController.swift */; };
+		651482D6268B3AE2005F0891 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651482D5268B3AE2005F0891 /* RegistrationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +37,9 @@
 		04381C8A268B369300ED9DAE /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 		04381C8D268B369A00ED9DAE /* File3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File3.swift; sourceTree = "<group>"; };
 		04381C90268B36A200ED9DAE /* File4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File4.swift; sourceTree = "<group>"; };
-		04381C93268B36A900ED9DAE /* File5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File5.swift; sourceTree = "<group>"; };
+		04381C93268B36A900ED9DAE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		651482D2268B3AC6005F0891 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		651482D5268B3AE2005F0891 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +92,7 @@
 		041CB5632628A08900A6613A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				04381C93268B36A900ED9DAE /* File5.swift */,
+				04381C93268B36A900ED9DAE /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				041CB56B2628A14900A6613A /* ConversationController.swift */,
+				651482D2268B3AC6005F0891 /* LoginController.swift */,
+				651482D5268B3AE2005F0891 /* RegistrationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -209,9 +215,11 @@
 				041CB5532628A02B00A6613A /* ViewController.swift in Sources */,
 				041CB54F2628A02B00A6613A /* AppDelegate.swift in Sources */,
 				04381C91268B36A200ED9DAE /* File4.swift in Sources */,
+				651482D6268B3AE2005F0891 /* RegistrationController.swift in Sources */,
 				041CB56C2628A14900A6613A /* ConversationController.swift in Sources */,
-				04381C94268B36A900ED9DAE /* File5.swift in Sources */,
+				04381C94268B36A900ED9DAE /* Extensions.swift in Sources */,
 				041CB5512628A02B00A6613A /* SceneDelegate.swift in Sources */,
+				651482D3268B3AC6005F0891 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
